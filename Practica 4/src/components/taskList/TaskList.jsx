@@ -11,7 +11,7 @@ const TaskList = ({ tasks, onStatusTask, onDeleteTask }) => {
             </div>
             <div>
                 <Button onClick={() => onStatusTask(index)}>
-                    {task.completed ? "Desmarcar" : "Completar"}
+                    {task.completed ? "Desmarcar" : "Marcar"}
                 </Button>
 
                 <Button onClick={() => onDeleteTask(index)}>
